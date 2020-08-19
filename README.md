@@ -17,4 +17,10 @@ What i will handle?
 - Spring boot
 - Javascript.React
 
-#JPA, #HTTP Request, Crud, MVC, Endpoints
+#JPA        
+#HTTP Request
+#Crud
+#MVC
+
+
+<Back-end>           <Front-end>              <Help>

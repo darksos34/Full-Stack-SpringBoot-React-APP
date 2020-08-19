@@ -17,10 +17,10 @@ What i will handle?
 - Spring boot
 - Javascript.React
 
-#JPA        
+#JPA
+
 #HTTP Request
+
 #Crud
+
 #MVC
-
-
-<Back-end>           <Front-end>              <Help>

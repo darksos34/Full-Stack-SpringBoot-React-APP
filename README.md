@@ -10,8 +10,8 @@
 
 Beginning of a full stack application.
 
-What i will handle?
 
+What we will use.
 - Java 11
 - MongoDB
 - Spring boot

@@ -1,20 +1,17 @@
 package com.crm.crm.model;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
+import lombok.RequiredArgsConstructor;
 
-//Remove AutoWired  makes the application slow
-@Component
+import org.springframework.boot.CommandLineRunner;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+@RequiredArgsConstructor //Generates a constructor with required arguments.
 public class BootLoader implements CommandLineRunner {
 
     private final ContactRepository repository;
-
-    @Autowired
-    public BootLoader(ContactRepository repository){
-        this.repository = repository;
-    }
-
+    
     @Override
     public void run(String... args) throws Exception {
         this.repository.save(new Contact("Jordy","Hamwijk","j.hamwijk34@gmail.com"));

@@ -2,7 +2,7 @@ import React, { useEffect, useState} from 'react';
 import SingleContact from './SingleContact';
 import AddContacts from './AddContacts';
 
-
+//Run inspection on browser to analyze error and fix the code
 function Contacts() {
     const [contact, setContact] = useState([]);
 

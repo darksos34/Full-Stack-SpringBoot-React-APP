@@ -7,4 +7,6 @@ import org.springframework.data.repository.CrudRepository;
 @Repository
 public interface ContactRepository extends CrudRepository<Contact, Long> {
 
+
+
 }

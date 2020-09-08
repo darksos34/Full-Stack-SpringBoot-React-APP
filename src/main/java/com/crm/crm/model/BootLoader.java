@@ -5,6 +5,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+/*
+Task to do:
+Test Bootloader & write a Unit test*/
 @Component
 @RequiredArgsConstructor //Generates a constructor with required arguments.
 public class BootLoader implements CommandLineRunner {

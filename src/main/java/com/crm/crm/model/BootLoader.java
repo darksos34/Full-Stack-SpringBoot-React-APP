@@ -1,20 +1,16 @@
 package com.crm.crm.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-
+//Remove AutoWired  makes the application slow
 @Component
 public class BootLoader implements CommandLineRunner {
 
-    private  ContactRepository repository;
+    private final ContactRepository repository;
 
-    //Replaced autowired with a Constructor
-    //Difference needs to be tested
-    //Autowired or empty Constructor
-    private BootLoader(){
-    }
-
+    @Autowired
     public BootLoader(ContactRepository repository){
         this.repository = repository;
     }

@@ -11,9 +11,6 @@ import javax.persistence.Id;
 
 @Data
 @Entity
-@Getter
-@Setter
-@NoArgsConstructor
 public class Contact {
     // Test File
     public @Id @GeneratedValue Long id;
@@ -22,8 +19,8 @@ public class Contact {
     public String lastName;
     public String email;
 
-//    public Contact() {
-//    }
+    public Contact() {
+    }
 
     public Contact(String firstName, String lastName, String email){
         this.firstName = firstName;

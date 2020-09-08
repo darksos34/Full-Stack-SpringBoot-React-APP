@@ -1,15 +1,20 @@
 package com.crm.crm.model;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
 
 @Component
 public class BootLoader implements CommandLineRunner {
 
-    private final ContactRepository repository;
+    private  ContactRepository repository;
 
-    @Autowired
+    //Replaced autowired with a Constructor
+    //Difference needs to be tested
+    //Autowired or empty Constructor
+    private BootLoader(){
+    }
+
     public BootLoader(ContactRepository repository){
         this.repository = repository;
     }

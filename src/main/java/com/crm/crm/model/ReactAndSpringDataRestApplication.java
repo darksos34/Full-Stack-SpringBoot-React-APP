@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReactAndSpringDataRestApp {
-    public static void main (String [] args){
-        SpringApplication.run(ReactAndSpringDataRestApp.class, args);
+public class ReactAndSpringDataRestApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ReactAndSpringDataRestApplication.class, args);
     }
 }

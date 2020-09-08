@@ -2,29 +2,36 @@
 
 *Created on: 19-08-2020
 
-*Updated on: 07-09-2020
+*Updated on: 08-09-2020
 
 *Contributed by: Jordy Hamwijk
 
+# Front-end
+HTML
+CSS
+JavaScript
+
+Style from
+https://materializecss.com/
+Will be replaced with https://material-ui.com/
 
 
-Beginning of a full stack application.
+# Back-end
+Spring Boot
 
-Added Create React app front-end
+CRUD Repository
 
-Adding repo
-Testing JPA with postman
+Java 11 
 
-What we will use.
-- Java 11
-- MongoDB
-- Spring boot
-- Javascript.React
 
-#JPA
+What is left?
 
-#HTTP Request
+1. Connect the App with Database
+ - PostgreSQL  &  MongoDB   
+2. Create Unit Test 
+3. add Navigation from Material UI
+4. lots more to come
 
-#Crud
 
-#MVC
+
+

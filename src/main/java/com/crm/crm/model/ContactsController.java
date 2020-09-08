@@ -27,6 +27,5 @@ class ContactsController {
         Contact result = contactRepository.save(contact);
         return ResponseEntity.ok().body(result);
     }
-
-
+    
 }

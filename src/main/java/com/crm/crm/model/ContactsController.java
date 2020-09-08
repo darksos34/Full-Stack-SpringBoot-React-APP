@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+/*Needs to be edited to your own code
+* CHECK LIST
+* Add more...
+* Get & Post & Update & delete
+* */
 @RestController
 @RequestMapping("/api")
 @CrossOrigin(origins = "http://localhost:3000")
@@ -17,6 +22,8 @@ class ContactsController {
     public ContactsController(ContactRepository contactRepository){
         this.contactRepository = contactRepository;
     }
+
+
     @GetMapping("/contacts")
     Collection<Contact> contacts() {
         return (Collection<Contact>) contactRepository.findAll();
@@ -27,5 +34,5 @@ class ContactsController {
         Contact result = contactRepository.save(contact);
         return ResponseEntity.ok().body(result);
     }
-    
+
 }

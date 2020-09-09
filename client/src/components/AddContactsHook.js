@@ -42,7 +42,7 @@ fetch("http://localhost:8080/api/contacts", {
         return (
 
             <div className="row">
-                <form className="col s12" onSubmit={this.submitContact.bind(this)}>
+                <form className="col s12" onSubmit={addContact}>
                     <div className="row">
                         <div className="input-field col s6">
                             <input placeholder="Placeholder" ref="firstName" type="text" className="validate"/>

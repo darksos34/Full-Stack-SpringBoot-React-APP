@@ -2,7 +2,7 @@
 
 *Created on: 19-08-2020
 
-*Updated on: 08-09-2020
+*Updated on: 09-09-2020
 
 *Contributed by: Jordy Hamwijk
 
@@ -10,6 +10,9 @@
 HTML
 CSS
 JavaScript
+
+React Component replaced with
+<br/>React Hooks
 
 Style from
 https://materializecss.com/

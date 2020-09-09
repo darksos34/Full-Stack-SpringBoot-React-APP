@@ -6,7 +6,7 @@ function AddContactsHooks() {
     useEffect(() => {
         const id = setInterval(() => {
             setAddContact(addContact + 1)
-        }, 1000);
+        });
         return () => clearInterval(id)
     }, [])
 
@@ -19,20 +19,7 @@ function AddContactsHooks() {
     //         email: this.refs.email.value
     //     }
 
-    function addContact() {
 
-    }
-
-    fetch("http://localhost:8080/api/contacts", {
-        method: "POST",
-        headers: {
-            "content-type": "application/json",
-        },
-        body: JSON.stringify(addContact),
-    })
-        .then(response => response.json());
-
-    window.location.reload()
 
 
     return (
@@ -41,17 +28,17 @@ function AddContactsHooks() {
             <form className="col s12" onSubmit={addContact}>
                 <div className="row">
                     <div className="input-field col s6">
-                        <input placeholder="Placeholder" ref="firstName" type="text" className="validate"/>
+                        <input placeholder="Placeholder" useRef="firstName" type="text" className="validate"/>
                         <label htmlFor="firstName">First Name</label>
                     </div>
                     <div className="input-field col s6">
-                        <input ref="lastName" type="text" className="validate"/>
+                        <input useRef="lastName" type="text" className="validate"/>
                         <label htmlFor="lastName">Last Name</label>
                     </div>
 
                     <div className="row">
                         <div className="input-field col s12">
-                            <input ref="email" type="email" className="validate"/>
+                            <input useRef="email" type="email" className="validate"/>
                             <label htmlFor="email">Email</label>
                         </div>
                     </div>

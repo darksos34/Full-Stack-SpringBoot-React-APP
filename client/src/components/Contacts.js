@@ -12,7 +12,7 @@ function Contacts() {
         document.title = `You clicked ${contact} times`;
     });
 
-
+    
 //Basic React will be transformed to React-hooks
 //Code is just a demo
 // export  default class Contacts extends Component{

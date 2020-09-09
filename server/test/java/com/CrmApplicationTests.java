@@ -1,4 +1,4 @@
-package com.crm.crm;
+package test.java.com;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

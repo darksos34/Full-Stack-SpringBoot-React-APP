@@ -1,7 +1,6 @@
-package com.crm.crm.model;
+package main.java.com.model;
 
 import lombok.RequiredArgsConstructor;
-
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

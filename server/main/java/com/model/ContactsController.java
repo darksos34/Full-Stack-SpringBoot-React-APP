@@ -1,12 +1,11 @@
-package com.crm.crm.model;
-
-import java.net.URISyntaxException;
-import java.util.Collection;
+package main.java.com.model;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.net.URISyntaxException;
+import java.util.Collection;
 
 /*Needs to be edited to your own code
 * CHECK LIST

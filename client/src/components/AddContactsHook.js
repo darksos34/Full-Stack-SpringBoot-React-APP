@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function AddContactsHooks() {
+const AddContactsHooks = () => {
     const [addContact, setAddContact] = useState();
 
     useEffect(() => {
@@ -10,14 +10,14 @@ function AddContactsHooks() {
         return () => clearInterval(id)
     }, [])
 
-    // submitContact(event) {
-    //     event.preventDefault();
-    //
-    //      const contact = {
-    //        firstName: this.refs.firstName.value,
-    //         lastName: this.refs.firstName.value,
-    //         email: this.refs.email.value
-    //     }
+        submitContact(event); {
+        event.preventDefault();
+
+         const contact = {
+           firstName: this.refs.firstName.value,
+            lastName: this.refs.firstName.value,
+            email: this.refs.email.value
+        }
 
 
 

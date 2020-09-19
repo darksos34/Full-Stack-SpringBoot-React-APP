@@ -18,6 +18,15 @@ Style from
 https://materializecss.com/
 Will be replaced with https://material-ui.com/
 
+# Security Update Github BOT
+
+``npm i node-forge``
+
+[node-forge](https://www.npmjs.com/package/node-forge)
+
+vulnerability found in client/package-lock.json 
+
+
 
 # Back-end
 Spring Boot
@@ -34,12 +43,3 @@ What is left?
 2. Create Unit Test 
 3. add Navigation from Material UI
 4. lots more to come
-
-
-
-
-# Security Uppdate Github BOT
-
-npm i node-forge
-
-vulnerability found in client/package-lock.json 

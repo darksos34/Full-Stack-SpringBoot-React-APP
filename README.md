@@ -41,3 +41,5 @@ What is left?
 # Security Uppdate Github BOT
 
 npm i node-forge
+
+vulnerability found in client/package-lock.json 

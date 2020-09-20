@@ -1,24 +1,12 @@
-import React, { Component,useEffect, useState} from 'react';
+import React, { Component} from 'react';
 import SingleContact from './SingleContact';
 import AddContacts from './AddContacts';
 
-//Run inspection on browser to analyze error and fix the code
-// const Contacts = () => {
-//     const [contact, setContact] = useState([]);
-//
-//     useEffect(() => {
-//
-//
-//         document.title = `You clicked ${contact} times`;
-//     });
-
-//
-// Basic React will be transformed to React-hooks
 function setContact() {
     return undefined;
 }
 
-// Code is just a demo
+
 export  default class Contacts extends Component{
     constructor(props) {
         super(props);
@@ -27,7 +15,6 @@ export  default class Contacts extends Component{
         };
     }
 
-    //fetch data will be replaced with Axios
     contact;
     componentDidMount() {
         fetch('http://localhost:8080/api/contacts')
@@ -59,4 +46,3 @@ export  default class Contacts extends Component{
         )
     }
 }
-// export default new Contacts();

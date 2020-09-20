@@ -10,49 +10,52 @@ const AddContactsHooks = () => {
         return () => clearInterval(id)
     }, [])
 
-        submitContact(event); {
+    function submitContact(event) {
+        
+    }
+
+    submitContact(event);
+    {
         event.preventDefault();
 
-         const contact = {
-           firstName: this.refs.firstName.value,
+        const contact = {
+            firstName: this.refs.firstName.value,
             lastName: this.refs.firstName.value,
             email: this.refs.email.value
         }
 
 
+        return (
 
-
-    return (
-
-        <div className="row">
-            <form className="col s12" onSubmit={addContact}>
-                <div className="row">
-                    <div className="input-field col s6">
-                        <input placeholder="Placeholder" useRef="firstName" type="text" className="validate"/>
-                        <label htmlFor="firstName">First Name</label>
-                    </div>
-                    <div className="input-field col s6">
-                        <input useRef="lastName" type="text" className="validate"/>
-                        <label htmlFor="lastName">Last Name</label>
-                    </div>
-
+            <div className="row">
+                <form className="col s12" onSubmit={addContact}>
                     <div className="row">
-                        <div className="input-field col s12">
-                            <input useRef="email" type="email" className="validate"/>
-                            <label htmlFor="email">Email</label>
+                        <div className="input-field col s6">
+                            <input placeholder="Placeholder" useRef="firstName" type="text" className="validate"/>
+                            <label htmlFor="firstName">First Name</label>
+                        </div>
+                        <div className="input-field col s6">
+                            <input useRef="lastName" type="text" className="validate"/>
+                            <label htmlFor="lastName">Last Name</label>
+                        </div>
+
+                        <div className="row">
+                            <div className="input-field col s12">
+                                <input useRef="email" type="email" className="validate"/>
+                                <label htmlFor="email">Email</label>
+                            </div>
+                        </div>
+
+                        <div className="row">
+                            <button className="waves-effect waves-light btn" type="submit" name="action">Submit</button>
+
                         </div>
                     </div>
+                </form>
+            </div>
 
-                    <div className="row">
-                        <button className="waves-effect waves-light btn" type="submit" name="action">Submit</button>
-
-                    </div>
-                </div>
-            </form>
-        </div>
-
-    )
+        )
+    }
 }
-
 export default AddContactsHooks;
 

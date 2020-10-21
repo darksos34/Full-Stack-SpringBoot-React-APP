@@ -1,8 +1,16 @@
 # Full-Stack-SpringBoot-React-APP
 
-*Created on: 19-08-2020
+* Created on: 19-08-2020
 
-*Updated on: 19-09-2020
+* Updated 21-10-2020 
+
+update on 21-10-2020 Client side
+#Security Update
+- security update frontend
+- npm i object-path
+
+added latest version react-scripts@3.4.4
+
 
 *Contributed by: Jordy Hamwijk
 

@@ -5,12 +5,10 @@
 * Updated 21-10-2020 
 
 update on 21-10-2020 Client side
-#Security Update
+# Security Update  on 21-10-2020
 - security update frontend
 - npm i object-path
-- npm i fsevents@latest -f
-added latest version react-scripts@3.4.4
-
+- npm i react-scripts@3.4.4
 
 *Contributed by: Jordy Hamwijk
 

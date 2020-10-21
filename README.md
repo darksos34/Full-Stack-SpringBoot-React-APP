@@ -4,13 +4,7 @@
 
 * Updated 21-10-2020 
 
-update on 21-10-2020 Client side
-# Security Update  on 21-10-2020
-- security update frontend
-- npm i object-path
-- npm i react-scripts@3.4.4
-
-*Contributed by: Jordy Hamwijk
+* Contributed by: Jordy Hamwijk
 
 # Front-end
 HTML

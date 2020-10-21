@@ -8,7 +8,7 @@ update on 21-10-2020 Client side
 #Security Update
 - security update frontend
 - npm i object-path
-
+- npm i fsevents@latest -f
 added latest version react-scripts@3.4.4
 
 
